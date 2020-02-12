@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - increasing and decreasing until 98
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	long int a, b, c, n;
