@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	long int a, b, c, d;
+	long int a, b, c, n;
 
 	a = 0;
 	b = 1;
@@ -20,10 +20,10 @@ int main(void)
 		b = c;
 		if (c % 2 == 0)
 		{
-			d = d + c;
+			n = n + c;
 		}
 	}
-	printf("%ld", d;
+	printf("%ld", n;
 	putchar('\n');
 	return (0);
 }
