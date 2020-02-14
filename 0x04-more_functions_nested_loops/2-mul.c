@@ -1,10 +1,11 @@
 #include "holberton.h"
 
 /**
-* int mul - multiply the two integer.
-*
-* Return - value of two integers multiplied.
-*/
+ * mul - multiplies a and b
+ * @a: first variable
+ * @b: second variable
+ * Return: Returns computed value
+ */
 int mul(int a, int b)
 {
 	return (a * b);
