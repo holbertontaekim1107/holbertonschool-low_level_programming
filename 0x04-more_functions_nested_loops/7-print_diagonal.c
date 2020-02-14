@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-* print_diagonal - data entry
-*
-* Return - void
-*/
+ * print_diagonal - data entry
+ * @n: length of diagonal line
+ * Return - void
+ */
 void print_diagonal(int n)
 {
 	int i, s;	
