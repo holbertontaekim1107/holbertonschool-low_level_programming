@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
-* print_square - prints size x size square
-*
-*
-* Return: void
-*/
+ * print_square - prints size x size square
+ * @size: dimensions of square
+ *
+ * Return: void
+ */
 void print_square(int size)
 {
 	int i, size2;
