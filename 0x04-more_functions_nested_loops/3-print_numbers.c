@@ -1,18 +1,18 @@
 #include "holberton.h"
 
 /**
- * print_numbers - print number from 0-9.
- * 
- * Return - void
+ * print_numbers - prints 0-9 once
+ * @sdnums - variable abbre based off
+ * single digit numbers for simplicity
  */
+
 void print_numbers(void)
 {
-	int a;
+	int sdnums = 0;
 
-	for (a = 0; a <= 9; a++)
-
+	for (sdnums = '0'; sdnums <= '9'; sdnums++)
 	{
-		_putchar(a);
+		_putchar(sdnums);
 	}
-	_puchar('\n');
+	_putchar('\n');
 }
