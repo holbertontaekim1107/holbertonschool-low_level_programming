@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
-* print_triangle - prints n length line
-*
-*
-* Return: void
-*/
+ * print_triangle - prints n length line
+ * @size: length of triangle
+ *
+ * Return: void
+ */
 void print_triangle(int size)
 {
 	int i, size2;
