@@ -4,6 +4,7 @@
  * _strcpy - prints one char out of 2 of a string
  *
  * @dest: string value
+ *
  * @src: string pointer
  *
  * Return: dest
