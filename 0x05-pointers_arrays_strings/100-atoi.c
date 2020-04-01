@@ -22,3 +22,4 @@ int _atoi(char *s)
 		}
 	}
 	return (result *= sign % 2 == 0 ? -1 : 1);
+}
