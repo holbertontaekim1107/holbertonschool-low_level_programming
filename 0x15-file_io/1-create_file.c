@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * create_file = create a file
+ * create_file - create a file
  * @filename: Pointer to name of file to create
  * @text_content: Pointer to string to write the file
- * Return: Fails: -1 otherwise: 1
+ * Return: On fail: -1 otherwise: 1
  */
 
 int create_file(const char *filename, char *text_content)
