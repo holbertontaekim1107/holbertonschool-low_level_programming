@@ -21,14 +21,10 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	/* READ OPERATIONS */
 	src = open(SRC, O_RDONLY);
-	/* Copy everything from source into the 1024 bit buffer */
 	if (src == -1)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", SRC), exit(98);
-	/* WRITE OPERATIONS */
 	dest = open(DEST, O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	/* Write everything saved in buffer into dest as many bytes READCOUNT */
 	while ((readcount = read(src, buffer, 1024)) > 0)
 		write_d = write(dest, buffer, readcount);
 	if (readcount == -1)
