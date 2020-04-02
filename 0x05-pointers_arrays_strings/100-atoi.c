@@ -1,11 +1,13 @@
 #include "holberton.h"
 #include <stdio.h>
+
 /**
  * _atoi - returns integer values from string
  * @s: input string
  *
  * Return: will return integer
  */
+
 int _atoi(char *s)
 {
 	int result = 0, sign = 0, c;
